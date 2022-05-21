@@ -4,4 +4,4 @@
 # ~~~~
 # An example controller showing a sample home page
 
-GET     /                           controller.Rates.index
+GET     /rates?:fromCurrency?:toCurrency                        controllers.RatesController.index()

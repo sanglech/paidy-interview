@@ -22,3 +22,4 @@ Things to also check:
     - Then ```run``` (Note: should be using a different port than 8080)
 
 3) Make calls to the API via postman
+    - ```http://localhost:8000/rates?fromCurr=JPY&toCurr=USD``` 
