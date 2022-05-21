@@ -15,6 +15,7 @@ object Dependencies {
     val scalaCheck          = "1.15.3"
     val scalaTest           = "3.2.7"
     val catsScalaCheck      = "0.3.0"
+    val scalaTestPlusPlay   = "5.0.0"
   }
 
   object Libraries {
@@ -33,6 +34,7 @@ object Dependencies {
     lazy val circeGenericExt     = circe("circe-generic-extras")
     lazy val circeParser         = circe("circe-parser")
     lazy val pureConfig          = "com.github.pureconfig" %% "pureconfig"                 % Versions.pureConfig
+    lazy val scalaTestPlusPlay   = "org.scalatestplus.play" %% "scalatestplus-play"        % Versions.scalaTestPlusPlay
 
     // Compiler plugins
     lazy val kindProjector       = "org.typelevel"         %% "kind-projector"             % Versions.kindProjector
