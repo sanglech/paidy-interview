@@ -6,5 +6,6 @@ object errors {
   object Error {
     final case class OneFrameLookupFailed(msg: String) extends Error
   }
+  // TODO add more descriptive error messages
 
 }
